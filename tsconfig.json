@@ -4,11 +4,14 @@
       "esModuleInterop": true,
       "allowSyntheticDefaultImports": true,
       "target": "es6",
+      "rootDir": "./src",
       "declaration": true,
       "noImplicitAny": true,
       "moduleResolution": "node",
       "outDir": "dist",
-      "baseUrl": ".",
+      "baseUrl": "./",
+      "types": ["node","jest"],
+      "resolveJsonModule": true,
       "paths": {
           "*": [
               "node_modules/*",
